@@ -1,0 +1,11 @@
+.gallery{
+	width: 100%;
+	column-count: 5;
+
+}
+
+.image{
+	width: 200px;
+	height: 200px;
+	
+}

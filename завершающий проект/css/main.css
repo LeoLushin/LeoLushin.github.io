@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;																																						
+}
+body{
+	background: url(../img/fon.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.brawl {
+	
+	width: 80%;
+	min-height: 600px;
+	margin: auto;
+	background: rgba(60,100,70,0.5);
+	
+}
+
+.header{
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	padding: 15px;
+	border-bottom-left-radius: 70%;
+	border-bottom-right-radius: 70%;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu li {
+	display: inline-block;
+	opacity: 1;
+	font-size: 28px;
+	
+}
+
+.menu a {
+	text-decoration: none;
+	color: red;
+	padding-left: 5px 15px;
+	transition: background 1s;
+}
+
+.menu a:hover{
+	background: rgba(0,0,0,0.3);
+}
+
+.speed{
+	height: 60px;
+}
+
+.text {
+	margin: auto;
+	width: 600px;
+	max-height: 2000px;
+	color: white;
+	font-size: 18px;
+}
+
+.img{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
+.img2 {
+	width: 500px;
+	height: 300px;
+}
+
+
+
